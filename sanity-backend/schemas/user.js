@@ -4,8 +4,8 @@ export default {
   type: 'document',
   fields: [
     {
-      name: 'userName',
-      title: 'User Name',
+      name: 'username',
+      title: 'Username',
       type: 'string',
     },
     {
