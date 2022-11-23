@@ -57,7 +57,7 @@ const Detail = ({ postDetails }: DetailProps) => {
     }
   };
 
-  const addComment = async (e: React.FormEvent) => {
+  const addComment = async (e: { preventDefault: () => void }) => {
     e.preventDefault();
 
     if (userProfile && comment) {
